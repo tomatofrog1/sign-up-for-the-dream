@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    
+}
+
+.lahatan {
+    display: flex;
+    background-image: url(./back.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.imageHolder .caption {
+    bottom: 20rem;
+    position: absolute;
+    color: aliceblue;
+    font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    background: rgba(32, 30, 30, 0.5);
+}
+
+.imageHolder img{
+    height:100vh;
+}
+
+.head {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.imageHolder {
+    position: relative;
+
+}
+
+.createBtn {
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submit{
+    margin-top: 2rem;
+}
+
+label, input{
+    display: block;
+}
+
+.inputs {
+    display: flex;
+}
+
+.inputBlockOne{
+    margin: 0 5rem 0  2rem;
+}
+
+.inputBlockOne div, .inputBlockTwo div{
+    margin: 2rem;
+}
+
+.submit div{
+    margin: 2rem 0 0 2rem;
+}
+
+.cap {
+    width: 60%;
+    margin-top:    2rem;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+}
