@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     
@@ -17,7 +18,7 @@ body{
     bottom: 20rem;
     position: absolute;
     color: aliceblue;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     width: 100%;
     text-align: center;
     background: rgba(32, 30, 30, 0.5);
@@ -82,4 +83,12 @@ label, input{
 .background {
     width: 100vw;
     height: 100vh;
+}
+
+p, h2, label, a, h3, .submit {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: rgb(51, 44, 44);
 }
